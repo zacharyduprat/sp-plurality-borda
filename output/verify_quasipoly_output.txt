@@ -1,0 +1,22 @@
+Brute-forcing D_SP(n) for n = 0..42 ...
+  D_SP[0..14] = [0, 0, 0, 0, 2, 2, 6, 12, 14, 26, 34, 46, 60, 82, 94]
+
+Fitted period-6 cubic per residue class (n >= 1):
+   r |    a_3    a_2        c_1          c_0    sample n's
+   0 |   1/27   1/36       -5/6            2    [6, 12, 18, 24]
+   1 |   1/27   1/36       -1/3       29/108    [1, 7, 13, 19]
+   2 |   1/27   1/36     -19/18        46/27    [2, 8, 14, 20]
+   3 |   1/27   1/36       -1/3         -1/4    [3, 9, 15, 21]
+   4 |   1/27   1/36       -5/6        68/27    [4, 10, 16, 22]
+   5 |   1/27   1/36       -5/9      -59/108    [5, 11, 17, 23]
+
+n = 0 sanity check:
+  D_SP(0) (brute force) = 0
+  formula(0)            = 2
+  gap = formula(0) - D_SP(0) = 2
+  (Expected gap of 2 from the polynomial part of F_SP(t).)
+
+Formula matches brute force at every n in [1, 42].
+All published quasi-polynomial coefficients confirmed.
+
+PASS

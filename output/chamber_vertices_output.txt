@@ -1,0 +1,17 @@
+Closed chamber polytope vertices:
+          X1         X2         X3         X4    denom
+         1/3        1/3          0        1/3    3
+         1/3        1/3        1/3          0    3
+         1/2          0          0        1/2    2
+         1/2          0        1/2          0    2
+         1/2        1/2          0          0    2
+         2/3          0          0        1/3    3
+
+Number of vertices       : 6
+LCM of vertex denominators: 6
+
+All vertex denominators divide 6.
+By Stanley's theorem on Ehrhart series of rational polytopes,
+D_AB(n) is a quasi-polynomial of degree <= 3 and period dividing 6.
+
+PASS
